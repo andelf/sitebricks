@@ -4,10 +4,10 @@
   <parent>
     <groupId>com.google.sitebricks</groupId>
     <artifactId>sitebricks-parent</artifactId>
-    <version>0.8.12-SNAPSHOT</version>
+    <version>0.8.13-SNAPSHOT</version>
   </parent>
   <artifactId>sitebricks-acceptance-tests</artifactId>
-  <packaging>takari-jar</packaging>
+  <packaging>jar</packaging>
   <name>Sitebricks :: Acceptance Tests</name>
 
   <dependencies>

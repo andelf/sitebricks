@@ -9,7 +9,7 @@
   <groupId>com.google.sitebricks</groupId>
   <artifactId>sitebricks-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.8.12-SNAPSHOT</version>
+  <version>0.8.13-SNAPSHOT</version>
   <name>Sitebricks :: Parent</name>
   <url>https://github.com/dhanji/sitebricks</url>
 
@@ -25,7 +25,7 @@
     <lucene.version>4.0.0</lucene.version>
     <jedis.version>2.1.0</jedis.version>
     <bval.version>0.5</bval.version>
-    <packaging>takari-jar</packaging>    
+    <packaging>jar</packaging>    
   </properties>
 
   <modules>
@@ -365,6 +365,7 @@
               <fork>true</fork>
             </configuration>
           </plugin>
+          <!--
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
@@ -373,6 +374,7 @@
               <forkMode>once</forkMode>
             </configuration>
           </plugin>
+        -->
         </plugins>
       </build>
     </profile>
@@ -389,6 +391,7 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+      <!--
       <plugin>
         <groupId>io.takari.maven.plugins</groupId>
         <artifactId>takari-lifecycle-plugin</artifactId>
@@ -398,6 +401,7 @@
           <proc>proc</proc>
         </configuration>
       </plugin>
+      -->
    </plugins>
   </build>
 
